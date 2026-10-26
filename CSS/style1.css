@@ -1,0 +1,125 @@
+
+    .body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fffaf3;
+      color: #333;
+    }
+
+    .topo {
+      background-color: #4b2e1e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .topo a {
+      color: white;
+      margin: 0 10px;
+    }
+
+    .secao {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .cinza {
+      background-color: #f1ebe3;
+    }
+
+    .botao {
+      background-color: #4b2e1e;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 5px;
+    }
+
+    .caixa {
+      display: inline-block;
+      width: 250px;
+      background-color: white;
+      margin: 10px;
+      padding: 15px;
+      border-radius: 8px;
+      vertical-align: top;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    input, textarea {
+      width: 300px;
+      padding: 8px;
+      margin: 5px;
+    }
+
+    .rodape {
+      background-color: #4b2e1e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .rodape a {
+      color: white;
+    }
+
+    .secao > img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .caixa img {
+      height: 160px;
+      object-fit: contain;
+    }
+
+    input, textarea {
+      box-sizing: border-box;
+      max-width: 100%;
+      font: inherit;
+    }
+
+    textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+
+    button {
+      border: 0;
+      cursor: pointer;
+      font: inherit;
+    }
+
+    .topo a {
+      display: inline-block;
+      margin: 6px 10px;
+    }
+
+    @media (max-width: 600px) {
+      .secao {
+        padding: 30px 14px;
+      }
+
+      .caixa {
+        box-sizing: border-box;
+        width: min(100%, 320px);
+        margin: 10px auto;
+        display: block;
+      }
+
+      input, textarea {
+        width: 100%;
+        margin: 6px 0;
+      }
+
+      .topo h1 {
+        font-size: 1.8rem;
+      }
+    }
+  
